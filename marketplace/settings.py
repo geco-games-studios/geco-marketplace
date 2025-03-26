@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-$^lgls_p2^^55dk)fz^6&&jv$1=t=)=bq&kf*8v_g@=elcgk_h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','normills.onrender.com']
+ALLOWED_HOSTS = ['*','geco-marketplace.onrender.com']
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://normills.onrender.com',
+    'https://geco-marketplace.onrender.com',
 ]
 
 AUTH_USER_MODEL = 'users.User'
